@@ -8,3 +8,46 @@ Template: zerogravity
 Version: 0.1.0
 */
 
+.top-bar {
+    background-color: rgba(1, 57, 162, 0.8588235294117647);
+}
+
+.blog-info-sin-imagen {
+	padding: 0;
+}
+
+.site {
+	background-color: rgba(255,255,255,0.97)	
+}
+
+.widget-area .widget a {
+    color: #00ccff;
+}
+
+.widget-area .widget a:visited {
+    color: #8701c7;
+}
+
+.main-navigation {
+    background-color: rgba(1,57,162,0.8)
+}
+
+.main-navigation li a {
+    border-bottom: 0;
+    color: #00ccff;
+    line-height: 3.692307692;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: 1px solid #555555;
+    border-top: 1px solid #555555;
+    display: inline-block !important;
+    text-align: left;
+    width: 100%;
+}
+
+.site-info {
+	background-color: rgba(1,57,162,0.8)
+}
