@@ -10,7 +10,12 @@ Version: 0.1.0
 
 
 .top-bar {
-    background-color: rgba(1, 57, 162, 0.8588235294117647);
+    background-color: rgba(1, 57, 162, 1);
+}
+
+.toggle-search {
+	background-color: rgba(1, 57, 162, 1);
+	color: #EAEAEA;
 }
 
 .blog-info-sin-imagen {
@@ -18,7 +23,7 @@ Version: 0.1.0
 }
 
 .site {
-	background-color: rgba(255,255,255,0.97)	
+	background-color: rgba(255,255,255,0.99)	
 }
 
 .widget-area .widget a {
@@ -29,8 +34,12 @@ Version: 0.1.0
     color: #8701c7;
 }
 
+.main-navigation li {
+	text-align: center;
+}
+
 .main-navigation {
-    background-color: rgba(1,57,162,0.8)
+    background-color: rgba(1,57,162,1)
 }
 
 .main-navigation li a {
@@ -49,6 +58,19 @@ Version: 0.1.0
     width: 100%;
 }
 
-.site-info {
-	background-color: rgba(1,57,162,0.8)
+#colophon {
+	background-color: rgba(1,57,162,1)
 }
+
+.site-info {
+	background-color: rgba(1,57,162,1)
+}
+
+
+/*
+@media screen and (min-width: 640px) {
+.main-navigation li {
+	text-align: center;
+}
+}
+*/
