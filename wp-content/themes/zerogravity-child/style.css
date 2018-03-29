@@ -23,7 +23,7 @@ Version: 0.1.0
 }
 
 .site {
-	background-color: rgba(255,255,255,0.99)	
+	background-color: rgba(255,255,255,0.985);	
 }
 
 .widget-area .widget a {
@@ -66,11 +66,12 @@ Version: 0.1.0
 	background-color: rgba(1,57,162,1)
 }
 
-
 /*
+Cell screen Size CSS
+*/
+
 @media screen and (min-width: 640px) {
 .main-navigation li {
 	text-align: center;
 }
 }
-*/
