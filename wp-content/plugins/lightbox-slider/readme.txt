@@ -1,10 +1,10 @@
-=== Lightbox Gallery - Image Popup & Photos Gallery ===
+=== Lightbox Gallery Create Image Photos Gallery ===
 Contributors: weblizar
 Donate link: http://weblizar.com/lightbox-slider-pro/
 Tags: lightbox, slider, gallery, photo gallery, image gallery
 Requires at least: 3.8
-Tested up to: 4.9.1
-Stable tag: 3.2.19
+Tested up to: 4.9.4
+Stable tag: 3.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,8 @@ Lightbox Gallery is a fully responsive WordPress gallery plugin with hyper advan
 Lightbox Slider is based on bootstrap framework. Allow to add and create unlimited images galleries on your sites. Lightbox plugin is provide fade animation, light box image preview and two gallery layout with various fonts. It's also provide isotope effect to adjust your image size according to screen resolution.
 
 Using **[LBS id=123]** shortcode, you can publish lightbox slider image photo gallery into any Page or Post on your WordPress sites.
+
+https://www.youtube.com/watch?v=Bz45p7KXoH0
 
 ### Lightbox Slider Features
 
@@ -142,6 +144,7 @@ Please use WordPress [support forum](http://wordpress.org/support/plugin/lightbo
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
 
+= 3.3.0 - new page added for pro plugns
 = 3.2.19 - version update + compatible upto WordPress 4.9.1
 = 3.2.18 - lightbox width issue fixed
 = 3.2.17 - version update

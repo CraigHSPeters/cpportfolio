@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Lightbox Slider
- * Version: 3.2.19
+ * Version: 3.3.0
  * Description: A Great Lightbox plugin to create and display various types of images galleries on WordPress blog.
  * Author: Weblizar
  * Author URI: http://www.weblizar.com
@@ -399,8 +399,8 @@ add_action('admin_menu' , 'LBS_SettingsPage');
 
 function LBS_SettingsPage() {
     add_submenu_page('edit.php?post_type=lightbox-slider', __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), __('Settings', WEBLIZAR_LBS_TEXT_DOMAIN), 'administrator', 'light-box-settings', 'lightbox_slider_settings_page_function');
-    add_submenu_page('edit.php?post_type=lightbox-slider', 'Pro Screenshots', 'Pro Screenshots', 'administrator', 'get-image-gallery-pro-plugin', 'get_lightbox_slider_pro_page_function');
-    add_submenu_page('edit.php?post_type=lightbox-slider', 'recommendation', 'Plugin Recommendation', 'administrator', 'plugin-recommendation', 'LS_plugin_recommendation');
+    add_submenu_page('edit.php?post_type=lightbox-slider', 'Our Products', 'Our Products', 'administrator', 'lbs-our-products', 'our_product_page_function');
+    add_submenu_page('edit.php?post_type=lightbox-slider', 'Recommendation', 'Recommendation', 'administrator', 'plugin-recommendation', 'LS_plugin_recommendation');
 }
 
 /**
@@ -416,15 +416,12 @@ function lightbox_slider_settings_page_function() {
 }
 
 /**
- * Get Lightbox Slider Pro Plugin Page
+ * Our Products
  */
-function get_lightbox_slider_pro_page_function() {
+function our_product_page_function() {
     //css
-    wp_enqueue_style('wl-lbs-font-awesome-4', WEBLIZAR_LBS_PLUGIN_URL.'css/font-awesome-4.0.3/css/font-awesome.min.css');
-    wp_enqueue_style('wl-lbs-pricing-table-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table.css');
-    wp_enqueue_style('wl-lbs-pricing-table-responsive-css', WEBLIZAR_LBS_PLUGIN_URL.'css/pricing-table-responsive.css');
-    wp_enqueue_style('wl-lbs-boot-strap-responsive-min-2-3-css', WEBLIZAR_LBS_PLUGIN_URL.'css/bootstrap.css');
-	require_once("get-lightbox-slider-pro.php");
+    wp_enqueue_style('bootstrap-latest-css', WEBLIZAR_LBS_PLUGIN_URL.'bootstrap-latest/css/bootstrap.css');
+	require_once("our_product.php");
 }
 
 function LS_plugin_recommendation(){
