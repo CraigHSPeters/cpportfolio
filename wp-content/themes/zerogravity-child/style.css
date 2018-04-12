@@ -23,7 +23,7 @@ Version: 0.1.0
 }
 
 .site {
-	background-color: rgba(255,255,255,0.97);	
+	background-color: rgba(255,255,255,0.975);	
 }
 
 .widget-area .widget a {
@@ -31,7 +31,7 @@ Version: 0.1.0
 }
 
 .widget-area .widget a:visited {
-    color: #8701c7;
+    color: #089AAF;
 }
 
 .main-navigation li {
