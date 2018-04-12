@@ -60,7 +60,7 @@
 			</div>
 		<?php } //if ( get_header_image() ) ?>
 
-		<div class="headerslider"> <?php echo do_shortcode('[sp_responsiveslider limit="-1"]'); ?></div>
+		<div class="headerslider"> <?php echo do_shortcode('[sp_responsiveslider limit="-1" autoplay_interval="3000"]'); ?></div>
 		
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'zerogravity' ); ?>"><?php _e( 'Skip to content', 'zerogravity' ); ?></a>

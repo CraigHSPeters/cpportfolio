@@ -4,7 +4,7 @@ Theme URI: https://galussothemes.com/wordpress-themes/zerogravity
 Author: GalussoThemes
 Author URI: https://galussothemes.com
 Description: ZeroGravity is a simple and light WordPress theme with a clear and neat design. Some its features are: left sidebar or right, custom theme color (blue, green, orange, red, pink, yellow or purple), custom favicon, six different Google Fonts, thumbnails rounded or squared, two widgets areas (beginning and end of posts), customization panel, fully responsive, custom header, custom background and more. Translation Ready (English and spanish integrated). Required WordPress 4.1+.
-Version: 2.2.3
+Version: 2.2.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
@@ -467,7 +467,7 @@ img.wp-smiley,
 }
 .author-description h2 {
 	margin-bottom: 7px;
-	margin-botton: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 .author-description p {
 	color: #757575;
@@ -1087,7 +1087,7 @@ article.format-aside h1 a:hover {
 article.format-aside .aside {
 	padding: 24px 24px 0;
 	padding: 1.714285714rem;
-	background: #f7f7f7; #d2e0f9;
+	background: #f7f7f7;
 	border-left: 22px solid #a8bfe8;
 }
 article.format-aside p {
@@ -1646,8 +1646,6 @@ input[type="submit"], input[type="reset"] {
 	padding: 28px 14px;
 	padding: 2rem 1rem;
 }
-.image-header-wrapper {
-}
 .sub-title {
 	font-size:14px;
 	color:#9A9A9A;
@@ -1712,17 +1710,11 @@ input[type="submit"], input[type="reset"] {
 .site-info {
 	background-color: #555555;
 }
-.site-info a {
-
-}
 .credits {
 	display:inline-block;
 	vertical-align:top;
 	padding:0 1%;
 	width:30%;
-}
-.credits-left {
-
 }
 .credits-center {
 	text-align: center;
@@ -1971,7 +1963,7 @@ input[type="submit"], input[type="reset"] {
 /* Minimum width of 960 pixels. */
 @media screen and (min-width: 960px) {
 	body {
-		background-color: #fff; #f2f2f2;
+		background-color: #fff;
 	}
 	body .site {
 		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
